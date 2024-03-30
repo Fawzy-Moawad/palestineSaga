@@ -205,6 +205,18 @@ h6 {
   overflow: hidden; /* Hide overflowing content */
 }
 
+.banner-15 {
+  width: 75%;
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/15.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
 .banner-audio-books {
   width: 75%;
   margin-left: calc(50% - 50vw);
@@ -1104,6 +1116,8 @@ p {
 .custom-img:hover {
   transform: scale(1.1); /* Scale the image on hover */
 }
+
+
 /*TV Shows & Movies*/
 
 .movies-image-card {
@@ -1142,6 +1156,46 @@ p {
 }
 
 .movies-image-card-text h5 {
+  color: #FFFFFF;
+}
+
+/*Podcust*/
+.podcust-image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.podcust-image-card img {
+  transition: transform 0.3s ease;
+  width: 100%; 
+  height: 175px; 
+  object-fit: cover; 
+}
+
+.podcust-image-card:hover img {
+  transform: scale(1.1);
+}
+
+.podcust-image-card .podcust-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.podcust-image-card:hover .podcust-card-overlay {
+  opacity: 1;
+}
+
+.podcust-image-card-text h5 {
   color: #FFFFFF;
 }
 /*--------------------------------------------------------------
