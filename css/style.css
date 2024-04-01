@@ -38,9 +38,8 @@ h6 {
 # Banners Section
 ----------------------------------------*/
 .banner-1 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -50,9 +49,8 @@ h6 {
 }
 
 .banner-2 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -62,9 +60,8 @@ h6 {
 }
 
 .banner-3 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -74,9 +71,8 @@ h6 {
 }
 
 .banner-4 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -86,9 +82,8 @@ h6 {
 }
 
 .banner-5 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -98,9 +93,8 @@ h6 {
 }
 
 .banner-6 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -110,9 +104,8 @@ h6 {
 }
 
 .banner-7 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -122,9 +115,8 @@ h6 {
 }
 
 .banner-8 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -134,9 +126,8 @@ h6 {
 }
 
 .banner-9 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -146,9 +137,8 @@ h6 {
 }
 
 .banner-10 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -158,9 +148,8 @@ h6 {
 }
 
 .banner-11 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -170,9 +159,8 @@ h6 {
 }
 
 .banner-12 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -182,9 +170,8 @@ h6 {
 }
 
 .banner-13 {
-  width: 75%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
+  width: 100%;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -194,9 +181,8 @@ h6 {
 }
 
 .banner-14 {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -206,9 +192,8 @@ h6 {
 }
 
 .banner-15 {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -218,9 +203,8 @@ h6 {
 }
 
 .banner-audio-books {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -230,9 +214,8 @@ h6 {
 }
 
 .banner-abdElwahab {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -242,9 +225,8 @@ h6 {
 }
 
 .banner-bahaa {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -254,9 +236,8 @@ h6 {
 }
 
 .banner-edward {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -266,9 +247,8 @@ h6 {
 }
 
 .banner-ghassan {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
@@ -278,9 +258,8 @@ h6 {
 }
 
 .banner-other-books {
-  width: 75%;
+  width: 100%;
   margin-left: calc(50% - 50vw);
-  width: 100vw;
   height: 62.5vmin;
   min-height: 15em;
   background: linear-gradient(#000, transparent, #000),
