@@ -202,6 +202,17 @@ h6 {
   overflow: hidden; /* Hide overflowing content */
 }
 
+.banner-16 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/16.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
 .banner-audio-books {
   width: 100%;
   margin-left: calc(50% - 50vw);
@@ -1183,6 +1194,105 @@ p {
 }
 
 .podcusts-div-head h3 {
+  color: #262628;
+}
+
+/*Special Content Creator*/
+
+.special-contentCreator-image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.special-contentCreator-image-card img {
+  transition: transform 0.3s ease;
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover; 
+  align-items: center;
+}
+
+.special-contentCreator-image-card:hover img {
+  transform: scale(1.1);
+}
+
+.special-contentCreator-image-card .special-contentCreator-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.special-contentCreator-image-card:hover .special-contentCreator-card-overlay {
+  opacity: 1;
+}
+
+.special-contentCreator-image-card-text h5 {
+  color: #ffffff;
+}
+
+.special-contentCreator-image-card-text p {
+  color: #e0c5ae;
+}
+
+.special-contentCreator-div-head h3 {
+  color: #262628;
+}
+
+/*Content Creator*/
+
+.contentCreator-image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.contentCreator-image-card img {
+  transition: transform 0.3s ease;
+  width: 100%; 
+  height: 175px; 
+  object-fit: cover; 
+}
+
+.contentCreator-image-card:hover img {
+  transform: scale(1.1);
+}
+
+.contentCreator-image-card .contentCreator-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contentCreator-image-card:hover .contentCreator-card-overlay {
+  opacity: 1;
+}
+
+.contentCreator-image-card-text h5 {
+  color: #ffffff;
+}
+
+.contentCreator-image-card-text p {
+  color: #e0c5ae;
+}
+
+.contentCreator-div-head h3 {
   color: #262628;
 }
 /*--------------------------------------------------------------
