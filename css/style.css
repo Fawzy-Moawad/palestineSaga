@@ -1175,7 +1175,15 @@ p {
 }
 
 .podcust-image-card-text h5 {
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.podcust-image-card-text p {
+  color: #e0c5ae;
+}
+
+.podcusts-div-head h3 {
+  color: #262628;
 }
 /*--------------------------------------------------------------
 # Frequently Asked Questions
