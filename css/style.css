@@ -1190,7 +1190,10 @@ p {
 }
 
 .podcust-image-card-text p {
-  color: #e0c5ae;
+  color: #262628;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: bold;
 }
 
 .podcusts-div-head h3 {
@@ -1240,7 +1243,10 @@ p {
 }
 
 .special-contentCreator-image-card-text p {
-  color: #e0c5ae;
+  color: #262628;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: bold;
 }
 
 .special-contentCreator-div-head h3 {
@@ -1289,7 +1295,10 @@ p {
 }
 
 .contentCreator-image-card-text p {
-  color: #e0c5ae;
+  color: #262628;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: bold;
 }
 
 .contentCreator-div-head h3 {
