@@ -1112,8 +1112,6 @@ p {
   width: 150px;
   color: #A8181B;
   background-color: #262628;
-  align-items: center;
-  justify-content: center;
 }
 .books-button:hover {
   height: 50px;
