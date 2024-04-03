@@ -1103,6 +1103,41 @@ p {
 }
 
 /*
+#Buttons
+*/
+
+/*Books*/
+.books-button {
+  height: 50px;
+  width: 150px;
+  color: #A8181B;
+  background-color: #262628;
+  align-items: center;
+  justify-content: center;
+}
+.books-button:hover {
+  height: 50px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #00A552;
+}
+
+/*Documentaries*/
+
+.documentaries-button {
+  height: 50px;
+  width: 200px;
+  color: #A8181B;
+  background-color: #262628;
+}
+.documentaries-button:hover {
+  height: 50px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #00A552;
+}
+
+/*
 #Books
 */
 
