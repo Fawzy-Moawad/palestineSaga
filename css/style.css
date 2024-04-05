@@ -235,6 +235,60 @@ h6 {
   overflow: hidden; /* Hide overflowing content */
 }
 
+.banner-19 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/19.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.banner-20 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/20.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.banner-21 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/21.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.banner-22 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/22.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.banner-23 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/23.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
 .banner-audio-books {
   width: 100%;
   margin-left: calc(50% - 50vw);
