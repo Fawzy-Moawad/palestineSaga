@@ -289,6 +289,18 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+
+.banner-24 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/24.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
 .banner-audio-books {
   width: 100%;
   margin-left: calc(50% - 50vw);
@@ -1216,6 +1228,57 @@ p {
   transform: scale(1.1); /* Scale the image on hover */
 }
 
+/*Maps*/
+
+.maps-image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.maps-image-card img {
+  transition: transform 0.3s ease;
+  width: 150%; 
+  height: 400px; 
+  object-fit: cover; 
+}
+
+.maps-image-card:hover img {
+  transform: scale(1.1);
+}
+
+.maps-image-card .podcust-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.maps-image-card:hover .podcust-card-overlay {
+  opacity: 1;
+}
+
+.maps-image-card-text h5 {
+  color: #ffffff;
+}
+
+.maps-image-card-text p {
+  color: #262628;
+  margin-top: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.maps-div-head h3 {
+  color: #262628;
+}
 
 /*TV Shows & Movies*/
 
@@ -1255,7 +1318,8 @@ p {
 }
 
 .movies-image-card-text h5 {
-  color: #FFFFFF;
+  color: #262628;
+  font-weight: bold
 }
 
 /*Podcust*/
