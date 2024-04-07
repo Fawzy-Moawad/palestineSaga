@@ -1,4 +1,4 @@
-## H2 **Enigma Palestine**
+##  **Enigma Palestine**
 
 **What the project does ?**
 The project is a comprehensive online platform dedicated to exploring the rich history, culture, and contemporary issues of Palestine. It offers a curated collection of articles, podcasts, documentaries, TV programs, and content creator profiles, providing users with a holistic understanding of Palestine's narratives and experiences.
