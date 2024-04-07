@@ -1,9 +1,9 @@
 **Enigma Palestine**
 
-**What the project does ?**//
+**What the project does ?**/n
 The project is a comprehensive online platform dedicated to exploring the rich history, culture, and contemporary issues of Palestine. It offers a curated collection of articles, podcasts, documentaries, TV programs, and content creator profiles, providing users with a holistic understanding of Palestine's narratives and experiences.
 
-**Why the project is useful ?**//
+**Why the project is useful ?**
 This project serves as a valuable resource for individuals seeking to deepen their knowledge and understanding of Palestine. Whether users are interested in historical research, cultural exploration, or staying informed about current events, our platform offers a diverse range of content to cater to their interests and needs.
 
 **How users can get started with the project ?**
