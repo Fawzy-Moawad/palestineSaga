@@ -1180,6 +1180,48 @@ p {
 }
 
 /*
+#Pictures page
+*/
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; /* Negative margin to counteract padding */
+}
+
+.col-md-4 {
+  padding: 15px; /* Padding between cards */
+}
+
+.pic-gallery-image-card {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.instagram-media {
+  height: 100%; /* Ensure the blockquote takes up full height of the card */
+}
+
+/*
+#Pages List
+*/
+.pages-list a.page-link {
+  color: #fff;
+}
+
+.pages-list a.page-link:hover {
+  color: #00A552;
+}
+
+.pages-list a.page-link.active {
+  color: #262628; /* Change this to your desired color */
+}
+
+
+/*
 #Buttons
 */
 
