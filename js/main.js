@@ -1,10 +1,4 @@
-/**
-* Template Name: Delicious
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -162,17 +156,6 @@
     }
   });
 
-  /**
-   * Hero carousel indicators
-   */
-  let heroCarouselIndicators = select("#hero-carousel-indicators")
-  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
-
-  heroCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
 
   /**
    * Menu isotope and filter
@@ -204,46 +187,10 @@
   });
 
   /**
-   * Testimonials slider
-   */
-  new Swiper('.events-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
    * Initiate gallery lightbox 
    */
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
   });
 
 })()
@@ -283,12 +230,111 @@ new Swiper('.gallery-slider', {
 });
 
 
+//Language
 
+document.addEventListener('DOMContentLoaded', function () {
+  let currentLanguage = 'en';
 
+  function updateContent() {
+      const navbarEn = document.getElementById('navbar-en');
+      const navbarAr = document.getElementById('navbar-ar');
+      const homeContentEn = document.getElementById('home-content-en');
+      const homeContentAr = document.getElementById('home-content-ar');
+      const heroContentEn = document.getElementById('hero-content-en');
+      const heroContentAr = document.getElementById('hero-content-ar');
+      const aboutContentEn = document.getElementById('about-content-en');
+      const aboutContentAr = document.getElementById('about-content-ar');
+      const historyContentEn = document.getElementById('history-content-en');
+      const historyContentAr = document.getElementById('history-content-ar');
+      const galleryContentEn = document.getElementById('gallery-content-en');
+      const galleryContentAr = document.getElementById('gallery-content-ar');
+      const faqContentEn = document.getElementById('faq-content-en');
+      const faqContentAr = document.getElementById('faq-content-ar');
+      const contactContentEn = document.getElementById('contact-content-en');
+      const contactContentAr = document.getElementById('contact-content-ar');
+      const noteContentEn = document.getElementById('note-content-en');
+      const noteContentAr = document.getElementById('note-content-ar');
+      const footerContentEn = document.getElementById('footer-content-en');
+      const footerContentAr = document.getElementById('footer-content-ar');
+      const comingSoonContentEn = document.getElementById('comingSoon-content-en');
+      const comingSoonContentAr = document.getElementById('comingSoon-content-ar');
 
-function showMore() {
-  // Show the hidden questions and "Show More" button when clicked
-  document.getElementById("faq-list-6").classList.add("show");
-  document.getElementById("faq-list-show-more").style.display = "none"; // Hide the "Show More" button
-}
+      // Toggle visibility based on current language
+      const elements = {
+          navbarEn,
+          navbarAr,
+          homeContentEn,
+          homeContentAr,
+          heroContentEn,
+          heroContentAr,
+          aboutContentEn,
+          aboutContentAr,
+          historyContentEn,
+          historyContentAr,
+          galleryContentEn,
+          galleryContentAr,
+          faqContentEn,
+          faqContentAr,
+          contactContentEn,
+          contactContentAr,
+          footerContentEn,
+          footerContentAr,
+          noteContentEn,
+          noteContentAr,
+          comingSoonContentEn,
+          comingSoonContentAr
+      };
 
+      for (const [key, value] of Object.entries(elements)) {
+          if (value) {
+              if (key.includes('En')) {
+                  value.style.display = currentLanguage === 'en' ? 'block' : 'none';
+              } else if (key.includes('Ar')) {
+                  value.style.display = currentLanguage === 'ar' ? 'block' : 'none';
+              }
+          }
+      }
+
+      // Update the checkbox state
+      const languageToggle = document.getElementById('languageToggle');
+      if (languageToggle) {
+          languageToggle.checked = currentLanguage === 'ar';
+      }
+  }
+
+  function toggleLanguage() {
+      currentLanguage = currentLanguage === 'en' ? 'ar' : 'en';
+      localStorage.setItem('lang', currentLanguage);
+      updateContent();
+  }
+
+  // Get saved language from localStorage
+  const savedLanguage = localStorage.getItem('lang');
+  if (savedLanguage) {
+      currentLanguage = savedLanguage;
+  }
+
+  // Set the initial state of the toggle switch
+  const languageToggle = document.getElementById('languageToggle');
+  if (languageToggle) {
+      languageToggle.checked = currentLanguage === 'ar';
+      languageToggle.addEventListener('change', toggleLanguage);
+  }
+
+  updateContent();
+
+  // Handle mobile nav toggle
+  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+  if (mobileNavToggle) {
+      mobileNavToggle.addEventListener('click', function () {
+          const navbarEn = document.getElementById('navbar-en');
+          const navbarAr = document.getElementById('navbar-ar');
+          if (currentLanguage === 'en' && navbarEn) {
+              navbarEn.classList.toggle('navbar-mobile');
+          } else if (currentLanguage === 'ar' && navbarAr) {
+              navbarAr.classList.toggle('navbar-mobile');
+          }
+          this.classList.toggle('bi-x');
+      });
+  }
+});

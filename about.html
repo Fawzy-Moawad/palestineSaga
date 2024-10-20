@@ -13,6 +13,10 @@
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
+                            <!-- Favicons -->
+
+        <link href="./img/favicon.png" rel="icon" class="title-icon">
+        <link href="./img/apple-touch-icon.png" rel="apple-touch-icon" class="title-icon">
                             <!-- vendor Files -->
 
         <link href="./other/animate.css/animate.min.css" rel="stylesheet">
@@ -33,61 +37,49 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                 <div class="logo me-auto">
-                    <h1><a href="index.html">Enigma Palestine</a></h1>
+                    <img src="./img/apple-touch-icon.png" alt="">
                 </div>
 
-                <nav id="navbar" class="navbar order-last order-lg-0">
+                <!-- English Navbar -->
+                <nav id="navbar-en" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-
                         <li><a class="nav-link scrollto active" href="about.html">About</a></li>
-
                         <li><a class="nav-link scrollto" href="history.html">History</a></li>
-
-                        <li class="dropdown"><a class="nav-link scrollto" href="gallery.html">Gallery<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="audiobooks.html">Audio Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="abdelWahab-audio.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="bahaa-audio.html">Bahaa AlAmir</a></li>
-                                    <li><a href="edward-audio.html">Edward Said</a></li>
-                                    <li><a href="other-audio.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="books.html">Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="AbdelWahabEl-Messiri.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="BahaaAlAmir.html">Bahaa AlAmir</a></li>
-                                    <li><a href="EdwardSaid.html">Edward Said</a></li>
-                                    <li><a href="ghassan.html">Ghassan Kanafani</a></li>
-                                    <li><a href="other-books.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="videos.html">Videos<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="cities.html">Cities</a></li>
-                                    <li><a href="clashes.html">Clashes</a></li>
-                                    <li><a href="contentCreators.html">Content Creators</a></li>
-                                    <li><a href="tvShows&Movies.html">TV Shows & Movies</a></li>
-                                    <li><a href="politicalLeaders.html">Political Leaders</a></li>
-                                    <li><a href="international.html">International</a></li>
-                                    <li><a href="press.html">Press</a></li>
-                                    <li><a href="podcust.html">TV Programs & Podcusts</a></li>
-                                    <li><a href="sports.html">Sports</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </li>
-
+                        <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
                         <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-
                         <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
 
+                    </ul>
+                  </nav><!-- .navbar -->
+
+                  <!-- Arabic Navbar -->
+                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="nav-link scrollto active" href="about.html">من نحن</a></li>
+                        <li><a class="nav-link scrollto" href="history.html">التاريخ</a></li>
+                        <li><a class="nav-link scrollto" href="gallery.html">المعرض</a></li>
+                        <li><a class="nav-link scrollto" href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a class="nav-link scrollto" href="contact.html">تواصل معنا</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="language-toggle-container">
+                    <div class="toggle-button-cover">
+                        <div class="button-cover">
+                            <div class="button b2" id="button-16">
+                                <input type="checkbox" class="checkbox" id="languageToggle" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                
             </div>
         </header>
 
@@ -109,76 +101,114 @@
                         
                                                     <!-- /Hero -->
 
-                            <!--======Banner======-->
-        <main id="main">
-
-        <section>
-            <main>
-                <div class='banner-2'></div>
-            </main>
-        </section>
-
-                            <!--======/Banner======-->
-
                             <!-- ======= About Section ======= -->
 
         <section id="about" class="about">
             <div class="container-fluid p-5">
 
-                <div class="row">
+                <!-- English Content -->
+                <div id="about-content-en">
 
-                    <div class="col-lg-5 align-items-stretch p-3">
-                        <img src="./img/about.jpeg" style="width: 100%; height: 100%;" loading="lazy" alt="">
-                    </div>
-                    
-
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-3">
-
-                        <div class="content">
-                            <p class="fst-italic">
-                                Welcome to our dedicated platform, a digital haven designed to illuminate the rich tapestry of Palestine's history, culture, and people.<br>
-                                We are passionate about fostering a comprehensive understanding of Palestine, offering a treasure trove of resources that delve into the intricate layers of its past, present, and future.
-                            </p>
-
-                            <h4>Explore the Depths of Palestine:</h4>
-                            <p>
-                                Embark on an enlightening journey through the various cities and regions of Palestine, guided by detailed maps and immersive content.<br>
-                                From ancient landmarks to contemporary landscapes, our platform is a reservoir of knowledge, providing an in-depth exploration of the multifaceted aspects that shape Palestine's identity.
-                            </p>
-
-                            <h4>Multimedia Chronicles:</h4>
-                            <p>
-                                Immerse yourself in a diverse collection of books, audio books, videos, and captivating imagery that encapsulate the essence of Palestine.<br>
-                                Our extensive multimedia library aims to amplify the voices, stories, and cultural richness of this land, offering a nuanced perspective on the Palestinian experience.
-                            </p>
-
-                            <h4>Advocacy and Solidarity:</h4>
-                            <p>
-                                Discover avenues to contribute to the cause of Palestine as we stand together in advocating for justice and freedom.<br>
-                                Our platform serves as a beacon for those who believe in the inseparable link between the freedom of the Palestinian people and the collective pursuit of liberty.
-                            </p>
-
-                            <h4>FAQs and Beyond:</h4>
-                            <p>
-                                Find answers to common questions and delve into an expansive array of inquiries, providing a comprehensive understanding of the complexities surrounding the Palestinian cause.<br>
-                                Our commitment to education extends to addressing the myriad facets of the Palestinian narrative, fostering informed discussions.
-                            </p>
-
-                            <p>
-                                Join us in this sanctuary of knowledge and solidarity, where every click, every read, and every interaction is a step toward a world that comprehends, appreciates, and stands in unity with Palestine.<br>
-                                Together, let's build bridges of understanding and contribute to the narrative of hope and resilience in Palestine.</p>
-                            </p>
+                    <div class="row">
+                        <div class="col-lg-5 align-items-stretch p-3">
+                            <img src="./img/about.jpeg" style="width: 100%; height: 100%;" loading="lazy" alt="">
                         </div>
+                        
+                        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-3">
 
+                            <div class="content">
+                                <p class="fst-italic">
+                                    Welcome to our dedicated platform, a digital haven designed to illuminate the rich tapestry of Palestine's history, culture, and people.<br>
+                                    We are passionate about fostering a comprehensive understanding of Palestine, offering a treasure trove of resources that delve into the intricate layers of its past, present, and future.
+                                </p>
+    
+                                <h4>Explore the Depths of Palestine:</h4>
+                                <p>
+                                    Embark on an enlightening journey through the various cities and regions of Palestine, guided by detailed maps and immersive content.<br>
+                                    From ancient landmarks to contemporary landscapes, our platform is a reservoir of knowledge, providing an in-depth exploration of the multifaceted aspects that shape Palestine's identity.
+                                </p>
+    
+                                <h4>Multimedia Chronicles:</h4>
+                                <p>
+                                    Immerse yourself in a diverse collection of books, audio books, videos, and captivating imagery that encapsulate the essence of Palestine.<br>
+                                    Our extensive multimedia library aims to amplify the voices, stories, and cultural richness of this land, offering a nuanced perspective on the Palestinian experience.
+                                </p>
+    
+                                <h4>Advocacy and Solidarity:</h4>
+                                <p>
+                                    Discover avenues to contribute to the cause of Palestine as we stand together in advocating for justice and freedom.<br>
+                                    Our platform serves as a beacon for those who believe in the inseparable link between the freedom of the Palestinian people and the collective pursuit of liberty.
+                                </p>
+    
+                                <h4>FAQs:</h4>
+                                <p>
+                                    Find answers to common questions and delve into an expansive array of inquiries, providing a comprehensive understanding of the complexities surrounding the Palestinian cause.<br>
+                                    Our commitment to education extends to addressing the myriad facets of the Palestinian narrative, fostering informed discussions.
+                                </p>
+    
+                                <p>
+                                    Join us in this sanctuary of knowledge and solidarity, where every click, every read, and every interaction is a step toward a world that comprehends, appreciates, and stands in unity with Palestine.<br>
+                                    Together, let's build bridges of understanding and contribute to the narrative of hope and resilience in Palestine.</p>
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="row justify-content-center p-3">
+                        <p class="text-center">
+                            The creation and maintenance of the website are entirely self-funded and non-profit. We are not affiliated with any organization, party, or government. This is a completely personal and independent endeavor. 
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Arabic Content -->
+                <div id="about-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                    <div class="row">
+                        <div class="col-lg-5 align-items-stretch p-3">
+                            <img src="./img/about.jpeg" style="width: 100%; height: 100%;" loading="lazy" alt="">
+                        </div>
+                        
+                        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-3">
+
+                            <div class="content">
+                                <p class="fst-italic">
+                                    مرحبا بكم في منصتنا المخصصة، وهي ملاذ رقمي مصمم لإلقاء الضوء على النسيج الغني لتاريخ فلسطين وثقافتها وشعبها. نحن متحمسون لتعزيز فهم شامل لفلسطين ، وتقديم كنز دفين من الموارد التي تتعمق في الطبقات المعقدة من ماضيها وحاضرها ومستقبلها.
+                                </p>
+    
+                                <h4>استكشف أعماق فلسطين:</h4>
+                                <p>
+                                    انطلق في رحلة تنويرية عبر مختلف مدن ومناطق فلسطين ، مسترشدا بالخرائط التفصيلية والمحتوى الغامر. من المعالم القديمة إلى المناظر الطبيعية المعاصرة، منصتنا هي خزان للمعرفة، توفر استكشافا متعمقا للجوانب متعددة الأوجه التي تشكل هوية فلسطين.
+                                </p>
+    
+                                <h4>سجلات الوسائط المتعددة:</h4>
+                                <p>
+                                    انغمس في مجموعة متنوعة من الكتب والكتب الصوتية ومقاطع الفيديو والصور الآسرة التي تلخص جوهر فلسطين. تهدف مكتبتنا الواسعة متعددة الوسائط إلى تضخيم الأصوات والقصص والثراء الثقافي لهذه الأرض ، وتقديم منظور دقيق للتجربة الفلسطينية.
+                                </p>
+    
+                                <h4>المناصرة والتضامن:</h4>
+                                <p>
+                                    اكتشف سبلا للمساهمة في قضية فلسطين بينما نقف معا في الدفاع عن العدالة والحرية. منصتنا بمثابة منارة لأولئك الذين يؤمنون بالصلة التي لا تنفصم بين حرية الشعب الفلسطيني والسعي الجماعي للحرية.
+                                </p>
+    
+                                <h4>الأسئلة الشائعة:</h4>
+                                <p>
+                                    اعثر على إجابات للأسئلة الشائعة وتعمق في مجموعة واسعة من الاستفسارات ، مما يوفر فهما شاملا للتعقيدات المحيطة بالقضية الفلسطينية. يمتد التزامنا بالتعليم إلى معالجة الجوانب التي لا تعد ولا تحصى من الرواية الفلسطينية ، وتعزيز المناقشات المستنيرة.
+                                </p>
+    
+                                <p>
+                                    انضموا إلينا في ملاذ المعرفة والتضامن هذا، حيث كل نقرة وكل قراءة وكل تفاعل هو خطوة نحو عالم يفهم فلسطين ويقدرها ويقف في وحدة معها. معا، دعونا نبني جسور التفاهم ونساهم في سرد الأمل والصمود في فلسطين.</p>
+                                </p>
+                            </div>
+    
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="row justify-content-center p-3">
                     <p class="text-center">
-                        The creation of the website and maintenance are completely self-funded and non-profit.<br>
-                        We are not affiliated with any organization, party or government.<br> 
-                        This is a strictly personal and independent endeavor.  
+                        إنشاء الموقع وصيانته ممولة ذاتيا بالكامل وغير ربحية. نحن لسنا تابعين لأي منظمة أو حزب أو حكومة. هذا مسعى شخصي ومستقل تماما. 
                     </p>
                 </div>
 
@@ -189,79 +219,187 @@
 
                         <!--Note-->
 
-        <section class="p-3">
-            <div class="">
-                <p class="text-center" style="color: #262628;"><span>WARNING:</span> This website contains extremely graphic content and viewer discretion is advised.</p>
-            </div>
-        </section>
+        <section id="note">
 
-        <section>
-            <div>
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+                        Please feel free to report any issues you encounter by contacting us via email at <br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:info@enigmapalestine.com" target="_blank">info@enigmapalestine.com</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">ملاحظة هامة</h2>
+                    <p class="text-center pb-3"></p>
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة.<br>
+                        ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا.<br>
+                        لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين.<br>
+                        شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--/Note-->
 
+                            <!--======Banner======-->
+        <main id="main">
+
+            <section>
+                <main>
+                    <div class='banner-2'></div>
+                </main>
+            </section>
+    
+                                <!--======/Banner======-->
+
+        </main>
+
+                            <!-- / #main -->
+
                             <!-- ======= Footer ======= -->
 
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
+        <section id="footer">
+
+            <!-- English Content -->
+            <div id="footer-content-en">
                 
-                        <div class="col-lg-3 col-md-6">
-                            <div class="footer-info">
-                                <h3>EnigmaPalestine.com</h3>
-                                <p>
-                                <strong>Email:</strong> EnigmaPalestine@proton.me<br>
-                                </p>
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-info">
+                                    <h3>PalestineSaga.online</h3>
+                                    <p>
+                                    <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>Contact:</strong> info@palestinesaga.online</a><br>
+                                    <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>Report:</strong> support@palestinesaga.online</a>
+                                    </p>
+                                </div>
                             </div>
+                            
+                    
+                            <div class="col-lg-2 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">Content Creators</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">Culture & Traditions</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">Documentaries</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">Tv Shows & Movies</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">Political Leaders</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="press.html">Press</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">TV Programs & Podcusts</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-1 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="sports.html">Sports</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="resources.html">Resources</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                    
                         </div>
-                
-                        <div class="col-lg-2 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="cities.html">Cities</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="maps.html">Maps</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
-                                
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-1 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                
                     </div>
                 </div>
+                
             </div>
-        </footer>
+    
+            <!-- Arabic Content -->
+            <div  dir='rtl' lang='ar' id="footer-content-ar" style="display: none;">
+            
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-info">
+                                    <h3>PalestineSaga.online</h3>
+                                    <p>
+                                    <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>اتصل بنا:</strong> info@palestinesaga.online</a><br>
+                                    <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>الإبلاغ عن مشكلة:</strong> support@palestinesaga.online</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                    
+                            <div class="col-lg-2 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">الصفحة الرئيسية</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="about.html">من نحن</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="history.html">التاريخ</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">الكتب الصوتية</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="books.html">الكتب</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">صناع المحتوى</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">الثقافة والتقاليد</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">الافلام الوثائقيه</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">البرامج التلفزيونية والأفلام</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">الصور</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">القادة السياسيون</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="press.html">الصحافة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">المسلسلات التلفزيونية والبودكاست</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-1 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="sports.html">الرياضة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="faq.html">الأسئلة المتداولة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="resources.html">الموارد</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contact.html">اتصل بنا</a></li>
+                                </ul>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
         
                             <!-- /Footer -->
 

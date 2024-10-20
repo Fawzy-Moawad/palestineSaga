@@ -25,7 +25,7 @@
 
     </head>
 
-    <body style="background-color: #A8181B;">
+    <body>
 
                             <!-- ======= Header ======= -->
 
@@ -33,62 +33,48 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                 <div class="logo me-auto">
-                    <h1><a href="index.html">Enigma Palestine</a></h1>
+                    <img src="./img/apple-touch-icon.png" alt="">
                 </div>
 
-                <nav id="navbar" class="navbar order-last order-lg-0">
+                <!-- English Navbar -->
+                <nav id="navbar-en" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
-
                         <li><a class="nav-link scrollto" href="history.html">History</a></li>
-
-                        <li class="dropdown"><a class="nav-link scrollto active" href="gallery.html">Gallery<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="audiobooks.html">Audio Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="abdelWahab-audio.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="bahaa-audio.html">Bahaa AlAmir</a></li>
-                                    <li><a href="edward-audio.html">Edward Said</a></li>
-                                    <li><a href="other-audio.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="books.html">Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="AbdelWahabEl-Messiri.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="BahaaAlAmir.html">Bahaa AlAmir</a></li>
-                                    <li><a href="EdwardSaid.html">Edward Said</a></li>
-                                    <li><a href="ghassan.html">Ghassan Kanafani</a></li>
-                                    <li><a href="other-books.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="videos.html">Videos<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="cities.html">Cities</a></li>
-                                    <li><a href="clashes.html">Clashes</a></li>
-                                    <li><a href="celeberities.html">Celeberities</a></li>
-                                    <li><a href="tvShows&Movies.html">TV Shows & Movies</a></li>
-                                    <li><a href="politicalLeaders.html">Political Leaders</a></li>
-                                    <li><a href="international.html">International</a></li>
-                                    <li><a href="press.html">Press</a></li>
-                                    <li><a href="podcust.html">Podcusts</a></li>
-                                    <li><a href="sports.html">Sports</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </li>
-
+                        <li><a class="nav-link scrollto active" href="gallery.html">Gallery</a></li>
                         <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-
-                        <li><a class="nav-link scrollto" href="resources.html">Resources</a></li>
-
                         <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
+                  </nav><!-- .navbar -->
+
+                  <!-- Arabic Navbar -->
+                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="nav-link scrollto" href="about.html">من نحن</a></li>
+                        <li><a class="nav-link scrollto" href="history.html">التاريخ</a></li>
+                        <li><a class="nav-link scrollto active" href="gallery.html">المعرض</a></li>
+                        <li><a class="nav-link scrollto" href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a class="nav-link scrollto" href="contact.html">تواصل معنا</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="language-toggle-container">
+                    <div class="toggle-button-cover">
+                        <div class="button-cover">
+                            <div class="button b2" id="button-16">
+                                <input type="checkbox" class="checkbox" id="languageToggle" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
 
             </div>
         </header>
@@ -111,7 +97,14 @@
                         
                             <!-- /Hero -->
 
-                                                        <!--Movies Section-->
+                            <!--Movies Section-->
+
+        <section class="p-5">
+            <div class="notes-text">
+                <h3 class="text-center"><span> WARNING:</span></h3>
+                <p class="text-center">This website contains extremely graphic content and viewer discretion is advised.</p>
+            </div>
+        </section>
 
         <section id="movies">
             <div class="container p-5">
@@ -139,33 +132,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=Lojmr29g8Xk" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/200 meters.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/200 meters.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">200 Meters</h5>
-                            </div>
                         </div>
                     </div>  
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=HDgnQ0LnfI4" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Tent 56.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Tent 56.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Tent 56</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=427jAYBe6aE&pp=ygUTT21hciBtb3ZpZSB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/omar.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/omar.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Omar</h5>
-                            </div>
                         </div>
                     </div> 
 
@@ -176,33 +160,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=T_O-xFSqwnY&pp=ygUiVW5kZXIgdGhlIEZpZyBUcmVlcyBtb3ZpZSB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Under the Fig Trees.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Under the Fig Trees.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Under the Fig Trees</h5>
-                            </div>
                         </div>
                     </div>   
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=51dixEewdSo&pp=ygUTSW5jaCdBbGxhaCB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Inch'Allah.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Inch'Allah.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Inch'Allah</h5>
-                            </div>
                         </div>
                     </div>  
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=zeloTZdv0K8&pp=ygUZQmV0aGxlaGVtIG1vdmllICB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Bethlehem.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Bethlehem.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Bethlehem</h5>
-                            </div>
                         </div>
                     </div>   
 
@@ -213,33 +188,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=zm8S78ANhuA" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Haifa.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Haifa.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Haifa</h5>
-                            </div>
                         </div>
                     </div>  
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.netflix.com/ca/title/81612982" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/farha.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/farha.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Farha</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.imdb.com/title/tt0175512/" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Nashid el-Hajar.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Nashid el-Hajar.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Canticle of the Stones</h5>
-                            </div>
                         </div>
                     </div> 
 
@@ -250,33 +216,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=SFNbrMmMekU" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Bab el shams1.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Bab el shams1.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Bab el shams 1</h5>
-                            </div>
                         </div>
                     </div>   
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.imdb.com/title/tt0406551/" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Bab el shams2.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Bab el shams2.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Bab el shams 2</h5>
-                            </div>
                         </div>
                     </div>  
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=rp0MuEsUptM&pp=ygUlVGhlIFRpbWUgVGhhdCBSZW1haW5zIG1vdmllICB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/The Time That Remains.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/The Time That Remains.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">The Time That Remains</h5>
-                            </div>
                         </div>
                     </div>  
 
@@ -287,33 +244,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.imdb.com/title/tt11474480/" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/The Present.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/The Present.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">The Present</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=GJfPoqSUr2A" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Maradona's Legs.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Maradona's Legs.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Maradona's Legs</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.imdb.com/title/tt10545994/" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/In Vitro.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/In Vitro.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">In Vitro</h5>
-                            </div>
                         </div>
                     </div> 
 
@@ -324,33 +272,24 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=AhvNx2ZwRvY&pp=ygUcUGFyYWRpc2UgTm93IG1vdmllICB0cmFpbGVyIA%3D%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Paradise Now.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Paradise Now.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Paradise Now</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=eFR8XcKg3k4&pp=ygUjRGl2aW5lIEludGVydmVudGlvbiBtb3ZpZSAgdHJhaWxlciA%3D" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Divine Intervention.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Divine Intervention.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Divine Intervention</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=btVRgRCg5Do&pp=ygUnS3VydGxhciBWYWRpc2kgRmlsaXN0aW4gbW92aWUgIHRyYWlsZXIg" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Kurtlar Vadisi Filistin.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Kurtlar Vadisi Filistin.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Kurtlar Vadisi Filistin</h5>
-                            </div>
                         </div>
                     </div> 
 
@@ -358,16 +297,6 @@
 
             </div>
         </section>
-
-                            <!--======Banner======-->
-
-        <section>
-            <main>
-                <div class='banner-14'></div>
-            </main>
-        </section>
-
-                            <!--======/Banner======-->
 
                             <!--=====TV Shows Section======-->
 
@@ -383,32 +312,23 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/playlist?list=PLOpvfjrLz9udyfHSEuv9sPE1gIsDVRaCd" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Al-Taghreba al-Falastenya.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Al-Taghreba al-Falastenya.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Al-Taghreba Al-Falastenya</h5>
-                            </div>
                         </div>
                     </div>  
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/watch?v=Axl9g6KM_V4" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/Maliha.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/Maliha.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Maliha</h5>
-                            </div>
                         </div>
                     </div> 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/playlist?app=desktop&list=PLUtBwKOI6h4wCCPq-vP7Ua0YMI4woQMa9" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/galbo3.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/galbo3.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Badge of Victory - Gilboa</h5>
-                            </div>
                         </div>
                     </div> 
 
@@ -420,39 +340,32 @@
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/playlist?list=PLcFG057v2gNFGc_1skqv0OyTRrPenOepE" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/blood.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/blood.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Bleeding Soil</h5>
-                            </div>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/playlist?list=PLMPI__cKm4mZbPDCZdikB07SxvBDQI_Op" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/returning to haifa.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/returning to haifa.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">Returning To Haifa</h5>
-                            </div>
                         </div>
                     </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
                             <a href="https://www.youtube.com/playlist?list=PLcFG057v2gNHRHZur9AWss06J4jvmZYZc" class="card-link" target="_blank">
-                                <img src="./img/gallery/Videos/TV Shows & Movies/stringers.jpg" loading="lazy" class="img-fluid" alt="Image">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/stringers.jpg" loading="lazy" class="img-fluid rounded border" alt="Image">
                             </a>
-                            <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">The Strangers</h5>
-                            </div>
                         </div>
                     </div>  
 
                 </div>
 
                 <!--Row 03-->
+                <!--
+                
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
@@ -488,8 +401,12 @@
                     </div> 
 
                 </div>
+                
+                -->
 
                 <!--Row 04-->
+                <!--
+                
                 <div class="row">
 
                     <div class="col-md-4 mb-4">
@@ -516,7 +433,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
-                            <a href="https://www.youtube.com/playlist?list=PLFt8cx1Uc9IHaMHG_hDLS-S6F5Mjb7zGy" class="card-link" target="_blank">
+                            <a href="#" class="card-link" target="_blank">
                                 <img src="./img/gallery/Videos/TV Shows & Movies/A homeland on a string.jpg" loading="lazy" class="img-fluid" alt="Image">
                             </a>
                             <div class="movies-image-card-text">
@@ -526,9 +443,22 @@
                     </div>  
 
                 </div>
+                
+                -->
 
                 <!--Row 05-->
                 <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="movies-image-card">
+                            <a href="https://www.youtube.com/playlist?list=PLFt8cx1Uc9IHaMHG_hDLS-S6F5Mjb7zGy" class="card-link" target="_blank">
+                                <img src="./img/gallery/Videos/TV Shows & Movies/A homeland on a string.jpg" loading="lazy" class="img-fluid" alt="Image">
+                            </a>
+                            <div class="movies-image-card-text">
+                                <h5 class="text-center p-3">01</h5>
+                            </div>
+                        </div>
+                    </div> 
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
@@ -536,7 +466,7 @@
                                 <img src="./img/gallery/Videos/TV Shows & Movies/A homeland on a string.jpg" loading="lazy" class="img-fluid" alt="Image">
                             </a>
                             <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">A homeland on a string 2</h5>
+                                <h5 class="text-center p-3">02</h5>
                             </div>
                         </div>
                     </div>  
@@ -547,10 +477,15 @@
                                 <img src="./img/gallery/Videos/TV Shows & Movies/A homeland on a string.jpg" loading="lazy" class="img-fluid" alt="Image">
                             </a>
                             <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">A homeland on a string 3</h5>
+                                <h5 class="text-center p-3">03</h5>
                             </div>
                         </div>
                     </div> 
+
+                </div>
+
+                <!--Row 05-->
+                <div class="row d-flex justify-content-center align-items-center">
 
                     <div class="col-md-4 mb-4">
                         <div class="movies-image-card">
@@ -558,14 +493,16 @@
                                 <img src="./img/gallery/Videos/TV Shows & Movies/A homeland on a string.jpg" loading="lazy" class="img-fluid" alt="Image">
                             </a>
                             <div class="movies-image-card-text">
-                                <h5 class="text-center p-3">A homeland on a string 4</h5>
+                                <h5 class="text-center p-3">04</h5>
                             </div>
                         </div>
-                    </div>  
+                    </div>   
 
                 </div>
 
                 <!--Row 06-->
+                <!--
+                
                 <div class="row">
 
                     <div class="col-md-4 mb-4">
@@ -601,31 +538,61 @@
                     </div> 
                 </div>
 
+                -->
+
             </div>
         </section>
 
                             <!--Note-->
 
         <section class="p-3">
-            <div class="">
+            <div>
                 <p class="text-center" style="color: #262628;"><span>WARNING:</span> This website contains extremely graphic content and viewer discretion is advised.</p>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+        <section id="note">
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:info@enigmapalestine.com">info@enigmapalestine.com</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+                        Please feel free to report any issues you encounter by contacting us via email at <br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
+
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">ملاحظة هامة</h2>
+                    <p class="text-center pb-3"></p>
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة.<br>
+                        ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا.<br>
+                        لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين.<br>
+                        شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--/Note-->
+
+        </main>
+
+                            <!-- / #main -->
 
                             <!-- ======= Footer ======= -->
 
@@ -636,41 +603,48 @@
                 
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info">
-                                <h3>EnigmaPalestine.com</h3>
+                                <h3>PalestineSaga.online</h3>
                                 <p>
-                                <strong>Email:</strong> EnigmaPalestine@proton.me<br>
+                                <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>Contact:</strong> info@palestinesaga.online</a><br>
+                                <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>Report:</strong> support@palestinesaga.online</a>
                                 </p>
                             </div>
                         </div>
+                        
                 
                         <div class="col-lg-2 col-md-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="cities.html">Cities</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-3 col-md-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="maps.html">Maps</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">Content Creators</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">Culture & Traditions</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">Documentaries</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">Tv Shows & Movies</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
-                                
+                                <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">Political Leaders</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="press.html">Press</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">TV Programs & Podcusts</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-1 col-md-6 footer-links">
                             <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="sports.html">Sports</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="resources.html">Resources</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
@@ -678,6 +652,7 @@
                     </div>
                 </div>
             </div>
+
         </footer>
         
                             <!-- /Footer -->

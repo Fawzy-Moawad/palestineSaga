@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <title>Pictures</title>
+        <title>Instagram</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
 
@@ -25,7 +25,7 @@
 
     </head>
 
-    <body style="background-color: #A8181B;">
+    <body>
 
                             <!-- ======= Header ======= -->
 
@@ -33,62 +33,48 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                 <div class="logo me-auto">
-                    <h1><a href="index.html">Enigma Palestine</a></h1>
+                    <img src="./img/apple-touch-icon.png" alt="">
                 </div>
 
-                <nav id="navbar" class="navbar order-last order-lg-0">
+                <!-- English Navbar -->
+                <nav id="navbar-en" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
-
                         <li><a class="nav-link scrollto" href="history.html">History</a></li>
-
-                        <li class="dropdown"><a class="nav-link scrollto active" href="gallery.html">Gallery<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="audiobooks.html">Audio Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="abdelWahab-audio.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="bahaa-audio.html">Bahaa AlAmir</a></li>
-                                    <li><a href="edward-audio.html">Edward Said</a></li>
-                                    <li><a href="other-audio.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="books.html">Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="AbdelWahabEl-Messiri.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="BahaaAlAmir.html">Bahaa AlAmir</a></li>
-                                    <li><a href="EdwardSaid.html">Edward Said</a></li>
-                                    <li><a href="ghassan.html">Ghassan Kanafani</a></li>
-                                    <li><a href="other-books.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="videos.html">Videos<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="cities.html">Cities</a></li>
-                                    <li><a href="clashes.html">Clashes</a></li>
-                                    <li><a href="contentCreators.html">Content Creators</a></li>
-                                    <li><a href="tvShows&Movies.html">TV Shows & Movies</a></li>
-                                    <li><a href="politicalLeaders.html">Political Leaders</a></li>
-                                    <li><a href="international.html">International</a></li>
-                                    <li><a href="press.html">Press</a></li>
-                                    <li><a href="podcust.html">TV Programs & Podcusts</a></li>
-                                    <li><a href="sports.html">Sports</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </li>
-
+                        <li><a class="nav-link scrollto active" href="gallery.html">Gallery</a></li>
                         <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-
-                        <li><a class="nav-link scrollto" href="resources.html">Resources</a></li>
-
                         <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
+                  </nav><!-- .navbar -->
+
+                  <!-- Arabic Navbar -->
+                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="nav-link scrollto" href="about.html">من نحن</a></li>
+                        <li><a class="nav-link scrollto" href="history.html">التاريخ</a></li>
+                        <li><a class="nav-link scrollto active" href="gallery.html">المعرض</a></li>
+                        <li><a class="nav-link scrollto" href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a class="nav-link scrollto" href="contact.html">تواصل معنا</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="language-toggle-container">
+                    <div class="toggle-button-cover">
+                        <div class="button-cover">
+                            <div class="button b2" id="button-16">
+                                <input type="checkbox" class="checkbox" id="languageToggle" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
 
             </div>
         </header>
@@ -101,7 +87,7 @@
             <div class="other-hero-container">
                 <div id="other-Carousel" data-bs-interval="5000" class="other-carousel slide other-carousel-fade" data-bs-ride="other-carousel">
                     <div class="other-carousel-inner" role="listbox">
-                        <div class="other-carousel-item active" style="background-image: url(./img/hero/slide-10.jpg);">
+                        <div class="other-carousel-item active" style="background-image: url(./img/hero/slide-39.jpg);">
                             
                         </div>
                     </div>
@@ -111,19 +97,16 @@
 
                             <!-- /Hero -->
 
-                            <!--======Banner======-->
-
-        <section>
-            <main>
-                <div class='banner-10'></div>
-            </main>
-        </section>
-
-                            <!--======/Banner======-->
-
                             <!--=====gallery sction======-->
 
-        <section>
+        <section class="p-5">
+            <div class="notes-text">
+                <h3 class="text-center"><span> WARNING:</span></h3>
+                <p class="text-center">This website contains extremely graphic content and viewer discretion is advised.</p>
+            </div>
+        </section>
+
+        <section class="p-5">
 
             <div class="container">
 
@@ -131,24 +114,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CgtHNc0pSLQ/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CgtHNc0pSLQ/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5280N8tkK1/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5280N8tkK1/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CgtHNc0pSLQ/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CgtHNc0pSLQ/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BizIDKOHUAi/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/BizIDKOHUAi/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CgtHd6XJEJ8/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CgtHd6XJEJ8/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZaaXcBhnlr/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/BZaaXcBhnlr/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -158,24 +141,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CgtH873J6Ca/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CgtH873J6Ca/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5ZTsFGo1wB/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5ZTsFGo1wB/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cg4oV5JJGux/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cg4oV5JJGux/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5rUDbpNHwy/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5rUDbpNHwy/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cg4of4DJRC_/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cg4of4DJRC_/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5tYCPXNT50/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5tYCPXNT50/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -185,24 +168,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cg4ooI2pA58/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cg4ooI2pA58/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5rHaYVJl_X/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5rHaYVJl_X/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChfXTYIBJIG/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChfXTYIBJIG/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5tIg5Ut3P8/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5tIg5Ut3P8/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChfXciUBqJb/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChfXciUBqJb/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5kRxtUIrot/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5kRxtUIrot/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -212,24 +195,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChfXnHLhDPc/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChfXnHLhDPc/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5ixXpWrHOC/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5ixXpWrHOC/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5icvcpvFwx/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5icvcpvFwx/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChwWS2bJfAw/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChwWS2bJfAw/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5gN8gpt7zF/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5gN8gpt7zF/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -239,24 +222,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChwWriWpz8_/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChwWriWpz8_/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5hQW98yOsX/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5hQW98yOsX/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ChwXPLApl1c/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ChwXPLApl1c/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5hLwcGtUrW/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5hLwcGtUrW/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiCLUOYJ1MZ/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiCLUOYJ1MZ/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5hjKDWpwzP/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5hjKDWpwzP/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -266,24 +249,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiCLhoEpvfF/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiCLhoEpvfF/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5acjToi7Sd/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5acjToi7Sd/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiCLslnJq80/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiCLslnJq80/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5au0BEt-Pc/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5au0BEt-Pc/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiUHOsPJpB0/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiUHOsPJpB0/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5iKlOtsiUA/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5iKlOtsiUA/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -293,78 +276,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiUHWrLJONw/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiUHWrLJONw/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5ebzNwtPvp/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5ebzNwtPvp/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiUHdvCJflQ/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiUHdvCJflQ/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5eVe5ws27q/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5eVe5ws27q/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CiklF1NvZtX/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CiklF1NvZtX/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Row 128-->
-                <div class="row gallery-row">
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cime-hGJsaQ/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cime-hGJsaQ/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ci4NelYJrhK/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ci4NelYJrhK/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ci5MJMIptDC/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ci5MJMIptDC/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Row 129-->
-                <div class="row gallery-row">
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ci61jPLp8bU/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ci61jPLp8bU/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ci-VWZmps03/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ci-VWZmps03/" target="_blank">View this post on Instagram</a>
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ckux7MOpdyL/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ckux7MOpdyL/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5bLkG0NTGP/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5bLkG0NTGP/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -374,24 +303,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ckx51MwtCSj/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ckx51MwtCSj/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5arcP7MG3t/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5arcP7MG3t/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ck74qpIJf-G/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ck74qpIJf-G/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C5eLDH7r0Tb/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C5eLDH7r0Tb/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Ck-TOArpihR/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Ck-TOArpihR/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0cty-hoKWZ/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0cty-hoKWZ/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -401,24 +330,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ClECgayp8Gi/" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ClECgayp8Gi/" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0W6rE2IOZU/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0W6rE2IOZU/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cm9mN9dSMq7/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cm9mN9dSMq7/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0q-w0PI8rX/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0q-w0PI8rX/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CnER-Rfpe-D/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CnER-Rfpe-D/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CyyjzJdvRHp/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/CyyjzJdvRHp/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -428,24 +357,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CXFoLbUBcVf/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CXFoLbUBcVf/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0r-TuQq3PB/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0r-TuQq3PB/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CYW4LTghYPt/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CYW4LTghYPt/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0q5xa4O3dw/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0q5xa4O3dw/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CjItlljph0D/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CjItlljph0D/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0hA9eHoByZ/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0hA9eHoByZ/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -455,24 +384,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/ClLPPxRJR1a/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/ClLPPxRJR1a/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0ovm6ks-u0/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0ovm6ks-u0/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CmL_oVZJ4W_/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CmL_oVZJ4W_/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0hraogMs-F/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0hraogMs-F/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CngrP1Ip4-L/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CngrP1Ip4-L/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0hnRd6r6ez/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0hnRd6r6ez/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -482,24 +411,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cu_QcL3xKwM/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Cu_QcL3xKwM/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0l1_tkNRQD/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0l1_tkNRQD/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CxAXcU2xxE9/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/CxAXcU2xxE9/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0jeduvOEr4/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0jeduvOEr4/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Czx4JeNNbyJ/?img_index=1" data-instgrm-version="13">
-                                <a href="https://www.instagram.com/p/Czx4JeNNbyJ/?img_index=1" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0je-A0ts0D/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0je-A0ts0D/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -509,24 +438,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0jeTSKtBbF/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0jeTSKtBbF/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0euRLTrX49/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0euRLTrX49/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0g0Egaq7Nf/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0g0Egaq7Nf/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -536,24 +465,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0dtvx8MENv/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0dtvx8MENv/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0O_Qr-O3e6/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0O_Qr-O3e6/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0cDL4VITMH/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0cDL4VITMH/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -563,24 +492,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0WIFDSsdXK/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0WIFDSsdXK/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CzjGXPeoYQ4/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/CzjGXPeoYQ4/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0aG0AaMY3S/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0aG0AaMY3S/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -590,24 +519,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0ZLosZMDq_/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0ZLosZMDq_/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0UfG-bq6m3/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0UfG-bq6m3/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0XTdxxMCG4/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0XTdxxMCG4/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -617,24 +546,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0Xb0aAIAh2/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0Xb0aAIAh2/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0WgUx7tV2D/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0WgUx7tV2D/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0Wf4TMt59a/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0Wf4TMt59a/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -644,24 +573,24 @@
                 <div class="row gallery-row">
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0WpOGmorQE/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0WpOGmorQE/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0PVaznI6wv/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0PVaznI6wv/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-4">
                         <div class="pic-gallery-image-card">
-                            <blockquote class="instagram-media" data-instgrm-permalink="#" data-instgrm-version="13">
-                                <a href="#" target="_blank">View this post on Instagram</a>
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0MtqztIGN4/" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/C0MtqztIGN4/" target="_blank">View this post on Instagram</a>
                             </blockquote>
                         </div>
                     </div>
@@ -673,8 +602,8 @@
         <section class="pages-list">
             <div class="row">
                 <div class="col">
-                    <ul class="list-inline d-flex justify-content-center align-items-center">
-                        <li><a href="insta-1.html" class="page-link p-1>1</a></li>
+                    <ul class="list-inline d-flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="insta-1.html" class="page-link p-1">1</a></li>
                         <li><a href="insta-2.html" class="page-link p-1">2</a></li>
                         <li><a href="insta-3.html" class="page-link p-1">3</a></li>
                         <li><a href="insta-4.html" class="page-link p-1">4</a></li>
@@ -687,9 +616,20 @@
                         <li><a href="insta-11.html" class="page-link p-1">11</a></li>
                         <li><a href="insta-12.html" class="page-link p-1">12</a></li>
                         <li><a href="insta-13.html" class="page-link p-1">13</a></li>
-                        <li><a href="insta-13.html" class="page-link p-1">13</a></li>
                         <li><a href="insta-14.html" class="page-link p-1">14</a></li>
                         <li><a href="insta-15.html" class="page-link p-1">15</a></li>
+                        <li><a href="insta-16.html" class="page-link p-1">16</a></li>
+                        <li><a href="insta-17.html" class="page-link p-1">17</a></li>
+                        <li><a href="insta-18.html" class="page-link p-1">18</a></li>
+                        <li><a href="insta-19.html" class="page-link p-1">19</a></li>
+                        <li><a href="insta-20.html" class="page-link p-1">20</a></li>
+                        <li><a href="insta-21.html" class="page-link p-1">21</a></li>
+                        <li><a href="insta-22.html" class="page-link p-1">22</a></li>
+                        <li><a href="insta-23.html" class="page-link p-1">23</a></li>
+                        <li><a href="insta-24.html" class="page-link p-1">24</a></li>
+                        <li><a href="insta-25.html" class="page-link p-1">25</a></li>
+                        <li><a href="insta-26.html" class="page-link p-1">26</a></li>
+                        <li><a href="insta-27.html" class="page-link p-1">27</a></li>
                     </ul>
                 </div>
             </div>
@@ -697,38 +637,56 @@
 
                             <!--======/Gallery section=======-->
 
-                        <!--======Banner======-->
-
-        <section>
-            <main>
-                <div class='banner-10'></div>
-            </main>
-        </section>
-
-                        <!--======/Banner======-->
-
                         <!--Note-->
 
         <section>
-            <div class="">
+            <div class="notes-text">
                 <p class="text-center" style="color: #262628;"><span>WARNING:</span> This website contains extremely graphic content and viewer discretion is advised.</p>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+        <section id="note">
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:info@enigmapalestine.com">info@enigmapalestine.com</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+                        Please feel free to report any issues you encounter by contacting us via email at <br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
+
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">ملاحظة هامة</h2>
+                    <p class="text-center pb-3"></p>
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة.<br>
+                        ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا.<br>
+                        لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين.<br>
+                        شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--/Note-->
+
+        </main>
+
+                            <!-- / #main -->
 
                             <!-- ======= Footer ======= -->
 
@@ -739,41 +697,48 @@
                 
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info">
-                                <h3>EnigmaPalestine.com</h3>
+                                <h3>PalestineSaga.online</h3>
                                 <p>
-                                <strong>Email:</strong> EnigmaPalestine@proton.me<br>
+                                <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>Contact:</strong> info@palestinesaga.online</a><br>
+                                <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>Report:</strong> support@palestinesaga.online</a>
                                 </p>
                             </div>
                         </div>
+                        
                 
                         <div class="col-lg-2 col-md-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="cities.html">Cities</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-3 col-md-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="maps.html">Maps</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">Content Creators</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">Culture & Traditions</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">Documentaries</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">Tv Shows & Movies</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
-                                
+                                <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">Political Leaders</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="press.html">Press</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">TV Programs & Podcusts</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-1 col-md-6 footer-links">
                             <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="sports.html">Sports</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="resources.html">Resources</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
@@ -781,6 +746,7 @@
                     </div>
                 </div>
             </div>
+
         </footer>
         
                             <!-- /Footer -->

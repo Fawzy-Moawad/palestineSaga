@@ -33,62 +33,48 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                 <div class="logo me-auto">
-                    <h1><a href="index.html">Enigma Palestine</a></h1>
+                    <img src="./img/apple-touch-icon.png" alt="">
                 </div>
 
-                <nav id="navbar" class="navbar order-last order-lg-0">
+                <!-- English Navbar -->
+                <nav id="navbar-en" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
-
                         <li><a class="nav-link scrollto active" href="history.html">History</a></li>
-
-                        <li class="dropdown"><a class="nav-link scrollto" href="gallery.html">Gallery<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="audiobooks.html">Audio Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="abdelWahab-audio.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="bahaa-audio.html">Bahaa AlAmir</a></li>
-                                    <li><a href="edward-audio.html">Edward Said</a></li>
-                                    <li><a href="other-audio.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="books.html">Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="AbdelWahabEl-Messiri.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="BahaaAlAmir.html">Bahaa AlAmir</a></li>
-                                    <li><a href="EdwardSaid.html">Edward Said</a></li>
-                                    <li><a href="ghassan.html">Ghassan Kanafani</a></li>
-                                    <li><a href="other-books.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="videos.html">Videos<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="cities.html">Cities</a></li>
-                                    <li><a href="clashes.html">Clashes</a></li>
-                                    <li><a href="contentCreators.html">Content Creators</a></li>
-                                    <li><a href="tvShows&Movies.html">TV Shows & Movies</a></li>
-                                    <li><a href="politicalLeaders.html">Political Leaders</a></li>
-                                    <li><a href="international.html">International</a></li>
-                                    <li><a href="press.html">Press</a></li>
-                                    <li><a href="podcust.html">TV Programs & Podcusts</a></li>
-                                    <li><a href="sports.html">Sports</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </li>
-
+                        <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
                         <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-
-                        <li><a class="nav-link scrollto" href="resources.html">Resources</a></li>
-
                         <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
+                  </nav><!-- .navbar -->
+
+                  <!-- Arabic Navbar -->
+                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="nav-link scrollto" href="about.html">من نحن</a></li>
+                        <li><a class="nav-link scrollto active" href="history.html">التاريخ</a></li>
+                        <li><a class="nav-link scrollto" href="gallery.html">المعرض</a></li>
+                        <li><a class="nav-link scrollto" href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a class="nav-link scrollto" href="contact.html">تواصل معنا</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="language-toggle-container">
+                    <div class="toggle-button-cover">
+                        <div class="button-cover">
+                            <div class="button b2" id="button-16">
+                                <input type="checkbox" class="checkbox" id="languageToggle" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
 
             </div>
         </header>
@@ -111,139 +97,265 @@
 
                         <!-- /Hero -->
 
-                        <!--======Banner======-->
-
-        <section>
-            <main>
-                <div class='banner-3'></div>
-            </main>
-        </section>
-
-                        <!--======/Banner======-->
-
                         <!-- ======= History Section ======= -->
 
         <section id="history" class="history">
             <div class="container p-5">
 
-                <div class="section-title">
-                    <h2>History 101:<span> Unveiling Centuries of Rich Heritage</span></h2>
-                    <p>
-                        Embark on a riveting journey through the annals of time with our History page, where we unravel the intricate tapestry of Palestine's past.<br>
-                        "History 101" is your comprehensive guide, meticulously curated to provide you with a deep understanding of the historical nuances that have shaped this remarkable land.
-                    </p>
+                <!-- English Content -->
+                <div id="history-content-en">
+
+                    <div class="section-title">
+                        <h2>History 101:<span> Unveiling Centuries of Rich Heritage</span></h2>
+                        <p>
+                            Embark on a riveting journey through the annals of time with our History page, where we unravel the intricate tapestry of Palestine's past.<br>
+                            "History 101" is your comprehensive guide, meticulously curated to provide you with a deep understanding of the historical nuances that have shaped this remarkable land.
+                        </p>
+                    
+                        <p>
+                            Discover ancient civilizations that once flourished on this sacred soil, from the Canaanites to the Philistines, and witness the echoes of their existence in the modern-day.<br>
+                            Traverse through the eras of empires, the rise and fall of kingdoms, and the enduring spirit of a resilient people.
+                        </p>
+                    
+                        <p>
+                            Palestine's history is a mosaic of triumphs and tribulations, resilience and resistance.<br>
+                            Uncover the pivotal moments that defined its destiny, from the era of prophets to the challenges of contemporary times.<br>
+                            Our History page is a gateway to enlightenment, offering a profound insight into the struggles, triumphs, and cultural treasures that make Palestine a living testament to human resilience.
+                        </p>
+                    
+                        <p>
+                            As you delve into "History 101," may you find inspiration, understanding, and a renewed appreciation for the rich heritage that continues to shape the narrative of this extraordinary land.
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="row pb-3">
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/palestine-throughout-history/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Unveiling Palestine's Historical Journey</h5>
+                                    <h6>
+                                        9000 BCE - 1918 CE
+                                    </h6>
+                                    <p>
+                                        Inaugurating our series of introductory articles, Part 1 embarks on a captivating exploration of Palestinian history leading up to the era of the British mandate in Palestine. Additionally, it delves into the emergence and impact of the Zionist movement within this historical backdrop.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/the-mandate-years-and-the-nakba/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Chronicles of Palestine:<br>
+                                        <span>The Mandate Era and the Nakba</span>
+                                    </h5>
+                                    <h6>1918 - 1948</h6>
+                                    <p>
+                                        Continuing our narrative in Part 2, we delve into the intricate dynamics of the British mandate in Palestine, exploring the ramifications of partition plans and the tragic chapter of ethnic cleansing known as the Nakba.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/from-nakba-to-naksa/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Unfolding Palestine's Turbulent Journey:<span>From Nakba to Naksa</span>
+                                    </h5>
+                                    <h6>1948 - 1978</h6>
+                                    <p>
+                                        In the third installment of our introductory series, we navigate through the aftermath of the Nakba, the transformative War of 1967 and its aftermath known as the Naksa, the implications of the Allon colonization plan, and the pivotal events of the 1973 war.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="row pb-3">
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/palestine-and-palestinians-today/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Introduction to Palestine :<br>
+                                        <span>Two Intifadas and two states</span>
+                                    </h5>
+                                    <h6>1978 - 2005</h6>
+                                    <p>
+                                        This is part 4 of our introductory articles. It covers The first and second Palestinian Intifadas, as well as the Madrid and Oslo talks.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Current Perspectives:<br>
+                                        <span>Palestine and Contemporary Palestinian Realities</span>
+                                    </h5>
+                                    <h6>2005 - 2022</h6>
+                                    <p>
+                                        In the fifth segment of our introductory series, we shed light on the current plight of Palestinians, examining their challenges and experiences both within Palestine and in diaspora communities across the globe.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>Understanding BDS:<br>
+                                        <span>Exploring Origins, Goals, and Debates</span>
+                                    </h5>
+                                    <h6>2005 - 2022</h6>
+                                    <p>
+                                        In the sixth installment of our introductory series, we delve into BDS (Boycott, Divestment, Sanctions), offering an in-depth exploration of its origins, objectives, and key arguments. We also address common misconceptions and controversies surrounding this grassroots movement.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>Read More</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                    </div>
                 
-                    <p>
-                        Discover ancient civilizations that once flourished on this sacred soil, from the Canaanites to the Philistines, and witness the echoes of their existence in the modern-day.<br>
-                        Traverse through the eras of empires, the rise and fall of kingdoms, and the enduring spirit of a resilient people.
-                    </p>
-                
-                    <p>
-                        Palestine's history is a mosaic of triumphs and tribulations, resilience and resistance.<br>
-                        Uncover the pivotal moments that defined its destiny, from the era of prophets to the challenges of contemporary times.<br>
-                        Our History page is a gateway to enlightenment, offering a profound insight into the struggles, triumphs, and cultural treasures that make Palestine a living testament to human resilience.
-                    </p>
-                
-                    <p>
-                        As you delve into "History 101," may you find inspiration, understanding, and a renewed appreciation for the rich heritage that continues to shape the narrative of this extraordinary land.
-                    </p>
+                    <div>
+                        <p class="text-center">Information sourced from <a class="copyRightsLinks" href="https://decolonizepalestine.com/" target="_blank">decolonizepalestine.com</a></p>
+                    </div>
+
                 </div>
+
+                <!-- Arabic Content -->
+                <div id="history-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                    <div class="section-title">
+                        <h2>التاريخ 101:<span> كشف النقاب عن قرون من التراث الغني</span></h2>
+                        <p>
+                            انطلق في رحلة مثيرة عبر سجلات الزمن من خلال صفحة التاريخ الخاصة بنا ، حيث نكشف النسيج المعقد لماضي فلسطين. "History 101" هو دليلك الشامل ، المنسق بدقة لتزويدك بفهم عميق للفروق الدقيقة التاريخية التي شكلت هذه الأرض الرائعة.
+                        </p>
+                    serena b Khan
+                        <p>
+                            اكتشف الحضارات القديمة التي ازدهرت ذات يوم على هذه الأرض المقدسة ، من الكنعانيين إلى الفلسطينيين ، وشاهد أصداء وجودها في العصر الحديث. اجتاز عصور الإمبراطوريات ، وصعود وسقوط الممالك ، والروح الدائمة لشعب مرن.
+                        </p>
+                    
+                        <p>
+                            تاريخ فلسطين هو فسيفساء من الانتصارات والمحن والصمود والمقاومة. اكتشف اللحظات المحورية التي حددت مصيرها ، من عصر الأنبياء إلى تحديات العصر المعاصر. صفحة تاريخنا هي بوابة للتنوير، وتقدم نظرة عميقة على النضالات والانتصارات والكنوز الثقافية التي تجعل من فلسطين شهادة حية على مرونة الإنسان.
+                        </p>
+                    
+                        <p>
+                            أثناء الخوض في "التاريخ 101" ، قد تجد الإلهام والفهم والتقدير المتجدد للتراث الغني الذي يستمر في تشكيل سرد هذه الأرض الاستثنائية.
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="row pb-3">
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/palestine-throughout-history/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>إزاحة الستار عن رحلة فلسطين التاريخية</h5>
+                                    <h6>
+                                        9000 قبل الميلاد - 1918 م
+                                    </h6>
+                                    <p>
+                                        في افتتاح سلسلة مقالاتنا التمهيدية ، يشرع الجزء 1 في استكشاف آسر للتاريخ الفلسطيني الذي أدى إلى حقبة الانتداب البريطاني في فلسطين. بالإضافة إلى ذلك ، فإنه يتعمق في ظهور وتأثير الحركة الصهيونية ضمن هذه الخلفية التاريخية.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/the-mandate-years-and-the-nakba/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>سجلات فلسطين:<br>
+                                        <span>عهد الانتداب والنكبة</span>
+                                    </h5>
+                                    <h6>1918 - 1948</h6>
+                                    <p>
+                                        استمرارا لروايتنا في الجزء 2 ، نتعمق في الديناميات المعقدة للانتداب البريطاني في فلسطين ، ونستكشف تداعيات خطط التقسيم والفصل المأساوي للتطهير العرقي المعروف باسم النكبة.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/from-nakba-to-naksa/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>رحلة فلسطين المضطربة:<span>من النكبة إلى النكسة</span>
+                                    </h5>
+                                    <h6>1948 - 1978</h6>
+                                    <p>
+                                        في الجزء الثالث من سلسلتنا التمهيدية، نتصفح آثار النكبة، والحرب التحويلية عام 1967 وتداعياتها المعروفة باسم النكسة، والآثار المترتبة على خطة ألون الاستعمارية، والأحداث المحورية لحرب 1973.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="row pb-3">
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/palestine-and-palestinians-today/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>مقدمة عن فلسطين :<br>
+                                        <span>انتفاضتان ودولتان</span>
+                                    </h5>
+                                    <h6>1978 - 2005</h6>
+                                    <p>
+                                        هذا هو الجزء 4 من مقالاتنا التمهيدية. ويغطي الانتفاضتين الفلسطينيتين الأولى والثانية، فضلا عن محادثات مدريد وأوسلو.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>وجهات النظر الحالية:<br>
+                                        <span>فلسطين والواقع الفلسطيني المعاصر</span>
+                                    </h5>
+                                    <h6>2005 - 2022</h6>
+                                    <p>
+                                        في الجزء الخامس من سلسلتنا التمهيدية، نسلط الضوء على المحنة الحالية للفلسطينيين، وندرس تحدياتهم وتجاربهم داخل فلسطين وفي مجتمعات الشتات في جميع أنحاء العالم.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                            <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
+                                <div class="history-custom-box">
+                                    <h5>فهم BDS:<br>
+                                        <span>استكشاف الأصول والأهداف والمناقشات</span>
+                                    </h5>
+                                    <h6>2005 - 2022</h6>
+                                    <p>
+                                        في الجزء السادس من سلسلتنا التمهيدية، نتعمق في حركة المقاطعة وسحب الاستثمارات والعقوبات، ونقدم استكشافا متعمقا لأصولها وأهدافها وحججها الرئيسية. كما نعالج المفاهيم الخاطئة والخلافات الشائعة المحيطة بهذه الحركة الشعبية.
+                                    </p>
+                                    <h6 class="bottom-0 start-0 pt-3"><strong>إقرأ المزيد</strong></h6>
+                                </div>
+                            </a>
+                        </div>
+    
+                    </div>
                 
-                
-                <div class="row pb-5">
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/palestine-throughout-history/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Unveiling Palestine's Historical Journey</h5>
-                                <h6>
-                                    9000 BCE - 1918 CE
-                                </h6>
-                                <p>
-                                    Inaugurating our series of introductory articles, Part 1 embarks on a captivating exploration of Palestinian history leading up to the era of the British mandate in Palestine. Additionally, it delves into the emergence and impact of the Zionist movement within this historical backdrop.
-                                </p>
-                            </div>
-                        </a>
+                    <div>
+                        <p class="text-center">المعلومات مصدرها <a class="copyRightsLinks" href="https://decolonizepalestine.com/" target="_blank">decolonizepalestine.com</a></p>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/the-mandate-years-and-the-nakba/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Chronicles of Palestine:<br>
-                                    The Mandate Era and the Nakba
-                                </h5>
-                                <h6>1918 - 1948</h6>
-                                <p>
-                                    Continuing our narrative in Part 2, we delve into the intricate dynamics of the British mandate in Palestine, exploring the ramifications of partition plans and the tragic chapter of ethnic cleansing known as the Nakba.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/from-nakba-to-naksa/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Unfolding Palestine's Turbulent Journey:<br>
-                                    From Nakba to Naksa
-                                </h5>
-                                <h6>1948 - 1978</h6>
-                                <p>
-                                    In the third installment of our introductory series, we navigate through the aftermath of the Nakba, the transformative War of 1967 and its aftermath known as the Naksa, the implications of the Allon colonization plan, and the pivotal events of the 1973 war.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="row pb-5">
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/palestine-and-palestinians-today/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Introduction to Palestine :<br>
-                                    Two Intifadas and two states
-                                </h5>
-                                <h6>1978 - 2005</h6>
-                                <p>
-                                    This is part 4 of our introductory articles. It covers The first and second Palestinian Intifadas, as well as the Madrid and Oslo talks.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Current Perspectives:<br>
-                                    Palestine and Contemporary Palestinian Realities
-                                </h5>
-                                <h6>2005 - 2022</h6>
-                                <p>
-                                    In the fifth segment of our introductory series, we shed light on the current plight of Palestinians, examining their challenges and experiences both within Palestine and in diaspora communities across the globe.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://decolonizepalestine.com/intro/bds-101/" target="_blank">
-                            <div class="history-custom-box">
-                                <h5>Understanding BDS:<br>
-                                    Exploring Origins, Goals, and Debates
-                                </h5>
-                                <h6>2005 - 2022</h6>
-                                <p>
-                                    In the sixth installment of our introductory series, we delve into BDS (Boycott, Divestment, Sanctions), offering an in-depth exploration of its origins, objectives, and key arguments. We also address common misconceptions and controversies surrounding this grassroots movement.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            
-                <div>
-                    <p class="text-center">Information sourced from <a class="copyRightsLinks" href="https://decolonizepalestine.com/" target="_blank">decolonizepalestine.com</a></p>
                 </div>
 
             </div>
@@ -253,79 +365,186 @@
 
                         <!--Note-->
 
-        <section class="p-3">
-            <div class="">
-                <p class="text-center" style="color: #262628;"><span>WARNING:</span> This website contains extremely graphic content and viewer discretion is advised.</p>
-            </div>
-        </section>
+        <section id="note">
 
-        <section>
-            <div>
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+                        Please feel free to report any issues you encounter by contacting us via email at <br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:info@enigmapalestine.com">info@enigmapalestine.com</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">ملاحظة هامة</h2>
+                    <p class="text-center pb-3"></p>
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة.<br>
+                        ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا.<br>
+                        لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين.<br>
+                        شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--/Note-->
 
+                            <!--======Banner======-->
+
+        <section>
+            <main>
+                <div class='banner-3'></div>
+            </main>
+        </section>
+
+                        <!--======/Banner======-->
+
+        </main>
+
+                            <!-- / #main -->
+
                             <!-- ======= Footer ======= -->
 
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
+        <section id="footer">
+
+            <!-- English Content -->
+            <div id="footer-content-en">
                 
-                        <div class="col-lg-3 col-md-6">
-                            <div class="footer-info">
-                                <h3>EnigmaPalestine.com</h3>
-                                <p>
-                                <strong>Email:</strong> EnigmaPalestine@proton.me<br>
-                                </p>
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-info">
+                                    <h3>PalestineSaga.online</h3>
+                                    <p>
+                                    <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>Contact:</strong> info@palestinesaga.online</a><br>
+                                    <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>Report:</strong> support@palestinesaga.online</a>
+                                    </p>
+                                </div>
                             </div>
+                            
+                    
+                            <div class="col-lg-2 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">Content Creators</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">Culture & Traditions</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">Documentaries</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">Tv Shows & Movies</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">Political Leaders</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="press.html">Press</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">TV Programs & Podcusts</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-1 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="sports.html">Sports</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="resources.html">Resources</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                    
                         </div>
-                
-                        <div class="col-lg-2 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="cities.html">Cities</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="maps.html">Maps</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
-                                
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-1 col-md-6 footer-links">
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                
                     </div>
                 </div>
+                
             </div>
-        </footer>
+    
+            <!-- Arabic Content -->
+            <div  dir='rtl' lang='ar' id="footer-content-ar" style="display: none;">
+            
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-info">
+                                    <h3>PalestineSaga.online</h3>
+                                    <p>
+                                    <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>اتصل بنا:</strong> info@palestinesaga.online</a><br>
+                                    <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>الإبلاغ عن مشكلة:</strong> support@palestinesaga.online</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                    
+                            <div class="col-lg-2 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="index.html">الصفحة الرئيسية</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="about.html">من نحن</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="history.html">التاريخ</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">الكتب الصوتية</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="books.html">الكتب</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">صناع المحتوى</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">الثقافة والتقاليد</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">الافلام الوثائقيه</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">المسلسلات التلفزيونية والأفلام</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">الصور</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">القادة السياسيون</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="press.html">الصحافة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">البرامج التلفزيونية والبودكاست</a></li>
+                                </ul>
+                            </div>
+                    
+                            <div class="col-lg-1 col-md-6 footer-links">
+                                <ul>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="sports.html">الرياضة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="faq.html">الأسئلة المتداولة</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="resources.html">الموارد</a></li>
+                                    <li><i class="bx bx-chevron-right"></i> <a href="contact.html">اتصل بنا</a></li>
+                                </ul>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
         
                             <!-- /Footer -->
 

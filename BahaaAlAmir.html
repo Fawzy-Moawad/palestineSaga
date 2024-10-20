@@ -13,6 +13,14 @@
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
+                            <!-- Favicons -->
+
+        <link href="./img/favicon.png" rel="icon" class="title-icon">
+        <link href="./img/apple-touch-icon.png" rel="apple-touch-icon" class="title-icon">
+                            <!-- Favicons -->
+
+        <link href="./img/favicon.png" rel="icon" class="title-icon">
+        <link href="./img/apple-touch-icon.png" rel="apple-touch-icon" class="title-icon">
                             <!-- vendor Files -->
 
         <link href="./other/animate.css/animate.min.css" rel="stylesheet">
@@ -33,62 +41,48 @@
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                 <div class="logo me-auto">
-                    <h1><a href="index.html">Enigma Palestine</a></h1>
+                    <img src="./img/apple-touch-icon.png" alt="">
                 </div>
 
-                <nav id="navbar" class="navbar order-last order-lg-0">
+                <!-- English Navbar -->
+                <nav id="navbar-en" class="navbar order-last order-lg-0">
                     <ul>
                         <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-
                         <li><a class="nav-link scrollto" href="about.html">About</a></li>
-
                         <li><a class="nav-link scrollto" href="history.html">History</a></li>
-
-                        <li class="dropdown"><a class="nav-link scrollto active" href="gallery.html">Gallery<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="audiobooks.html">Audio Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="abdelWahab-audio.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="bahaa-audio.html">Bahaa AlAmir</a></li>
-                                    <li><a href="edward-audio.html">Edward Said</a></li>
-                                    <li><a href="other-audio.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a class="nav-link scrollto active" href="books.html">Books<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="AbdelWahabEl-Messiri.html">AbdelWahab El-Messiri</a></li>
-                                    <li><a href="BahaaAlAmir.html">Bahaa AlAmir</a></li>
-                                    <li><a href="EdwardSaid.html">Edward Said</a></li>
-                                    <li><a href="ghassan.html">Ghassan Kanafani</a></li>
-                                    <li><a href="other-books.html">Other Books</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="pictures.html">Pictures</a></li>
-                            <li class="dropdown"><a class="nav-link scrollto" href="videos.html">Videos<i class="bi bi-chevron-down"></i></a>
-                                <ul>
-                                    <li><a href="cities.html">Cities</a></li>
-                                    <li><a href="clashes.html">Clashes</a></li>
-                                    <li><a href="contentCreators.html">Content Creators</a></li>
-                                    <li><a href="tvShows&Movies.html">TV Shows & Movies</a></li>
-                                    <li><a href="politicalLeaders.html">Political Leaders</a></li>
-                                    <li><a href="international.html">International</a></li>
-                                    <li><a href="press.html">Press</a></li>
-                                    <li><a href="podcust.html">TV Programs & Podcusts</a></li>
-                                    <li><a href="sports.html">Sports</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </li>
-
+                        <li><a class="nav-link scrollto active" href="gallery.html">Gallery</a></li>
                         <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
-
-                        <li><a class="nav-link scrollto" href="resources.html">Resources</a></li>
-
                         <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
+                  </nav><!-- .navbar -->
+
+                  <!-- Arabic Navbar -->
+                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a class="nav-link scrollto" href="about.html">من نحن</a></li>
+                        <li><a class="nav-link scrollto" href="history.html">التاريخ</a></li>
+                        <li><a class="nav-link scrollto active" href="gallery.html">المعرض</a></li>
+                        <li><a class="nav-link scrollto" href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a class="nav-link scrollto" href="contact.html">تواصل معنا</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="language-toggle-container">
+                    <div class="toggle-button-cover">
+                        <div class="button-cover">
+                            <div class="button b2" id="button-16">
+                                <input type="checkbox" class="checkbox" id="languageToggle" />
+                                <div class="knobs"></div>
+                                <div class="layer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <i class="bi bi-list mobile-nav-toggle"></i>
 
             </div>
         </header>
@@ -123,19 +117,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%20%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7%20%D9%88%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/01.webp" class="img-fluid custom-img" loading="lazy" alt="Image 1">
+                                <img src="./img/gallery/Books/arabic/Bahaa/01.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 1">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/02.webp" class="img-fluid custom-img" loading="lazy" alt="Image 2">
+                                <img src="./img/gallery/Books/arabic/Bahaa/02.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 2">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/03.webp" class="img-fluid custom-img" loading="lazy" alt="Image 3">
+                                <img src="./img/gallery/Books/arabic/Bahaa/03.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 3">
                             </a>
                         </div>
                     </div>
@@ -144,19 +138,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%A8%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D9%8A%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D8%AE%D8%B2%D8%B1-pdf" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/04.webp" class="img-fluid custom-img" loading="lazy" alt="Image 4">
+                                <img src="./img/gallery/Books/arabic/Bahaa/04.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 4">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AA%D8%B7%D8%A8%D9%8A%D8%B9%20%D9%88%D8%AA%D8%AF%D9%84%D9%8A%D8%B3-%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/">
-                                <img src="./img/gallery/Books/arabic/Bahaa/05.webp" class="img-fluid custom-img" loading="lazy" alt="Image 5">
+                                <img src="./img/gallery/Books/arabic/Bahaa/05.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 5">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%A8%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D8%AD%D9%88%D8%A7%D8%B1-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D9%85%D8%B5%D8%B7%D8%A8%D9%87-pdf?next=f6e77dfcac55f1c7ef13669676409fc0" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/06.webp" class="img-fluid custom-img" loading="lazy" alt="Image 6">
+                                <img src="./img/gallery/Books/arabic/Bahaa/06.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 6">
                             </a>
                         </div>
                     </div>
@@ -165,19 +159,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/d251268_yahoo_20190604_0025" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/07.webp" class="img-fluid custom-img" loading="lazy" alt="Image 7">
+                                <img src="./img/gallery/Books/arabic/Bahaa/07.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 7">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201114_20201114_1951" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/08.webp" class="img-fluid custom-img" loading="lazy" alt="Image 8">
+                                <img src="./img/gallery/Books/arabic/Bahaa/08.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 8">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%20%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D8%A9%20%D9%81%D9%8A%20%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%20%D9%88%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D8%A9%20%D9%81%D9%8A%20%D8%B3%D9%8A%D9%86%D8%A7%D8%A1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/09.webp" class="img-fluid custom-img" loading="lazy" alt="Image 9">
+                                <img src="./img/gallery/Books/arabic/Bahaa/09.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 9">
                             </a>
                         </div>
                     </div>
@@ -186,19 +180,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/Y.M.T.A" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/10.webp" class="img-fluid custom-img" loading="lazy" alt="Image 10">
+                                <img src="./img/gallery/Books/arabic/Bahaa/10.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 10">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D9%86%D9%82%D8%AF%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D8%B1%D9%8A%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D8%B1%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D8%A7%D9%84%D8%B0%D9%8A%20%D8%A3%D8%B3%D8%B3%20%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%88%D9%86%D9%8A%D8%A9%20-%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/11.webp" class="img-fluid custom-img" loading="lazy" alt="Image 11">
+                                <img src="./img/gallery/Books/arabic/Bahaa/11.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 11">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D8%A7%D8%B2%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%20%D9%88%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9/">
-                                <img src="./img/gallery/Books/arabic/Bahaa/12.webp" class="img-fluid custom-img" loading="lazy" alt="Image 12">
+                                <img src="./img/gallery/Books/arabic/Bahaa/12.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 12">
                             </a>
                         </div>
                     </div>
@@ -207,19 +201,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%D8%AC%D9%88%D8%AA%D9%87%20%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D9%88%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%88%D9%86%D9%8A%D8%A9/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/13.webp" class="img-fluid custom-img" loading="lazy" alt="Image 13">
+                                <img src="./img/gallery/Books/arabic/Bahaa/13.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 13">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/1-2019_202204/%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%20%D9%88%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%83%D8%B4%D9%88%D9%81%20%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9%20%D9%88%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D9%87%D9%86%D8%AF%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A9%20-%20%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D8%B71-2019/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/14.webp" class="img-fluid custom-img" loading="lazy" alt="Image 14">
+                                <img src="./img/gallery/Books/arabic/Bahaa/14.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 14">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/Y.H.H.S" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/15.webp" class="img-fluid custom-img" loading="lazy" alt="Image 15">
+                                <img src="./img/gallery/Books/arabic/Bahaa/15.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 15">
                             </a>
                         </div>
                     </div>
@@ -228,19 +222,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/03-1879-1880/01-%20%D9%8A%D8%B9%D9%82%D9%88%D8%A8%20%D8%B5%D9%86%D9%88%D8%B9%20%D9%88%D8%B4%D8%B9%D8%A7%D8%B1%20%D9%85%D8%B5%D8%B1%20%D9%84%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86%20-%20%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/16.webp" class="img-fluid custom-img" loading="lazy" alt="Image 16">
+                                <img src="./img/gallery/Books/arabic/Bahaa/16.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 16">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%B4%D9%81%D8%B1%D9%87-%D8%B3%D9%88%D8%B1%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A1-pdf" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/17.webp" class="img-fluid custom-img" loading="lazy" alt="Image 17">
+                                <img src="./img/gallery/Books/arabic/Bahaa/17.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 17">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%20%D9%88%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%88%D9%86%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D8%AF%D8%B3%D8%A7%D8%AA%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/18.webp" class="img-fluid custom-img" loading="lazy" alt="Image 18">
+                                <img src="./img/gallery/Books/arabic/Bahaa/18.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 18">
                             </a>
                         </div>
                     </div>
@@ -249,19 +243,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://ia601908.us.archive.org/21/items/20200716_20200716_2240/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D8%A7%D8%A9.pdf" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/19.webp" class="img-fluid custom-img" loading="lazy" alt="Image 19">
+                                <img src="./img/gallery/Books/arabic/Bahaa/19.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 19">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20200919_20200919_2026" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/20.webp" class="img-fluid custom-img" loading="lazy" alt="Image 20">
+                                <img src="./img/gallery/Books/arabic/Bahaa/20.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 20">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/1-2020_202204" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/21.webp" class="img-fluid custom-img" loading="lazy" alt="Image 21">
+                                <img src="./img/gallery/Books/arabic/Bahaa/21.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 21">
                             </a>
                         </div>
                     </div>
@@ -270,19 +264,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%20%D9%88%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D8%A8%20%D8%A7%D9%84%D8%B5%D9%84%D9%8A%D8%A8%D9%8A%D8%A9/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/22.webp" class="img-fluid custom-img" loading="lazy" alt="Image 22">
+                                <img src="./img/gallery/Books/arabic/Bahaa/22.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 22">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D9%86%D8%A7%D8%A8%D9%84%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%88%D9%86%D9%8A%20%D9%88%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%20-%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/40.jpg" class="img-fluid custom-img" loading="lazy" alt="Image 22">
+                                <img src="./img/gallery/Books/arabic/Bahaa/40.jpg" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 22">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D9%88%D8%AD%D9%8A-%D9%88%D9%86%D9%82%D9%8A%D8%B6%D9%87-pdf" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/24.webp" class="img-fluid custom-img" loading="lazy" alt="Image 24">
+                                <img src="./img/gallery/Books/arabic/Bahaa/24.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 24">
                             </a>
                         </div>
                     </div>
@@ -291,19 +285,19 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%A3%D9%88%D9%84%20%D8%A7%D9%84%D8%A2%D8%AA%D9%8A%D9%86%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AE%D9%84%D9%81%20-%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/33.webp" class="img-fluid custom-img" loading="lazy" alt="Image 22">
+                                <img src="./img/gallery/Books/arabic/Bahaa/33.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 22">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%20%D8%A7%D9%84%D9%81%D8%B1%D9%82%20%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D9%85%D9%85%D8%A7%D9%84%D9%8A%D9%83%20%D9%88%D8%A7%D9%84%D8%A2%D8%AA%D9%8A%D9%86%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AE%D9%84%D9%81/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/38.jpg" class="img-fluid custom-img" loading="lazy" alt="Image 23">
+                                <img src="./img/gallery/Books/arabic/Bahaa/38.jpg" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 23">
                             </a>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://archive.org/details/20201204_20201204_0411/%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF%D9%8A%20%D9%83%D8%B1%D8%B3%D8%AA%D9%88%D9%81%D8%B1%20%D9%83%D9%88%D9%84%D9%85%D8%A8%D8%B3%20%D9%88%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D8%A7%D9%86%D9%88%20-%20%D8%A8%D9%87%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1/" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/37.webp" class="img-fluid custom-img" loading="lazy" alt="Image 23">
+                                <img src="./img/gallery/Books/arabic/Bahaa/37.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 23">
                             </a>
                         </div>
                     </div>
@@ -312,7 +306,7 @@
                     <div class="row d-flex align-items-center justify-content-center">
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
                             <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%A8%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1-%D8%A7%D9%84%D9%8A%D9%87%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-pdf" target="_blank">
-                                <img src="./img/gallery/Books/arabic/Bahaa/38.webp" class="img-fluid custom-img" loading="lazy" alt="Image 22">
+                                <img src="./img/gallery/Books/arabic/Bahaa/38.webp" class="img-fluid custom-img border rounded" loading="lazy" alt="Image 22">
                             </a>
                         </div>
 
@@ -334,26 +328,48 @@
 
                             <!--Note-->
 
-        <section class="p-3">
-            <div class="">
-                <p class="text-center" style="color: #262628;"><span>WARNING:</span> This website contains extremely graphic content and viewer discretion is advised.</p>
-            </div>
-        </section>
+        <section id="note">
 
-        <section>
-            <div>
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+                        Please feel free to report any issues you encounter by contacting us via email at <br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:info@enigmapalestine.com">info@enigmapalestine.com</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">ملاحظة هامة</h2>
+                    <p class="text-center pb-3"></p>
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة.<br>
+                        ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا.<br>
+                        لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين.<br>
+                        شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--/Note-->
+
+        </main>
+
+                            <!-- / #main -->
 
                             <!-- ======= Footer ======= -->
 
@@ -364,41 +380,48 @@
                 
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-info">
-                                <h3>EnigmaPalestine.com</h3>
+                                <h3>PalestineSaga.online</h3>
                                 <p>
-                                <strong>Email:</strong> EnigmaPalestine@proton.me<br>
+                                <a class="footer-emails" href="mailto:info@palestinesaga.online"><strong>Contact:</strong> info@palestinesaga.online</a><br>
+                                <a class="footer-emails" href="mailto:support@palestinesaga.online"><strong>Report:</strong> support@palestinesaga.online</a>
                                 </p>
                             </div>
                         </div>
+                        
                 
                         <div class="col-lg-2 col-md-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="history.html">History</a></li>
-                            </ul>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="audiobooks.html">Audio Books</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="books.html">Books</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="cities.html">Cities</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-3 col-md-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="maps.html">Maps</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="contentCreators.html">Content Creators</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="cultureAndTraditions.html">Culture & Traditions</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="documentaries.html">Documentaries</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="tvShows&Movies.html">Tv Shows & Movies</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a href="pictures.html">Pictures</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
-                                
+                                <li><i class="bx bx-chevron-right"></i> <a href="politicalLeaders.html">Political Leaders</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="press.html">Press</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="podcust.html">TV Programs & Podcusts</a></li>
                             </ul>
                         </div>
                 
                         <div class="col-lg-1 col-md-6 footer-links">
                             <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="sports.html">Sports</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="resources.html">Resources</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
@@ -406,6 +429,7 @@
                     </div>
                 </div>
             </div>
+
         </footer>
         
                             <!-- /Footer -->
