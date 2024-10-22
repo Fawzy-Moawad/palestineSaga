@@ -248,6 +248,8 @@ document.addEventListener('DOMContentLoaded', function () {
       const historyContentAr = document.getElementById('history-content-ar');
       const galleryContentEn = document.getElementById('gallery-content-en');
       const galleryContentAr = document.getElementById('gallery-content-ar');
+      const contentCreatorsContentEn = document.getElementById('contentCreators-content-en');
+      const contentCreatorsContentAr = document.getElementById('contentCreators-content-ar');
       const faqContentEn = document.getElementById('faq-content-en');
       const faqContentAr = document.getElementById('faq-content-ar');
       const contactContentEn = document.getElementById('contact-content-en');
@@ -273,6 +275,8 @@ document.addEventListener('DOMContentLoaded', function () {
           historyContentAr,
           galleryContentEn,
           galleryContentAr,
+          contentCreatorsContentEn,
+          contentCreatorsContentAr,
           faqContentEn,
           faqContentAr,
           contactContentEn,
