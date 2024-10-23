@@ -250,6 +250,10 @@ document.addEventListener('DOMContentLoaded', function () {
       const galleryContentAr = document.getElementById('gallery-content-ar');
       const contentCreatorsContentEn = document.getElementById('contentCreators-content-en');
       const contentCreatorsContentAr = document.getElementById('contentCreators-content-ar');
+      const tvProgramsContentEn = document.getElementById('tvPrograms-content-en');
+      const tvProgramsContentAr = document.getElementById('tvPrograms-content-ar');
+      const podcustContentEn = document.getElementById('podcust-content-en');
+      const podcustContentAr = document.getElementById('podcust-content-ar');
       const faqContentEn = document.getElementById('faq-content-en');
       const faqContentAr = document.getElementById('faq-content-ar');
       const contactContentEn = document.getElementById('contact-content-en');
@@ -277,6 +281,10 @@ document.addEventListener('DOMContentLoaded', function () {
           galleryContentAr,
           contentCreatorsContentEn,
           contentCreatorsContentAr,
+          tvProgramsContentEn,
+          tvProgramsContentAr,
+          podcustContentEn,
+          podcustContentAr,
           faqContentEn,
           faqContentAr,
           contactContentEn,
